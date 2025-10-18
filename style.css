@@ -90,7 +90,7 @@ a:hover {
   text-align: left;
 }
 
-.pro {
+.fresher {
   text-decoration: underline;
 }
 
@@ -175,57 +175,53 @@ a:hover {
 }
 
 #skills {
-  padding: 40px 20px; /* Adds space around the whole section */
-  background-color: #f9f9f9; /* A very light grey background */
+  padding: 40px 20px; 
+  background-color: #f9f9f9; 
   text-align: center;
 }
 
 #skills h2 {
-  margin-bottom: 40px; /* Space below the main "Skills" heading */
+  margin-bottom: 40px;
   font-size: 2rem;
 }
 
-/* This is the container for all your skill boxes */
 .skills-container {
-  display: flex; /* Puts the categories side-by-side */
-  flex-wrap: wrap; /* Lets them stack vertically on small screens */
-  justify-content: center; /* Centers the boxes */
-  gap: 20px; /* Space between each box */
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 20px;
 }
 
-/* This is each individual category box (e.g., "Programming") */
 .skill-category {
-  background-color: #ffffff; /* White background for the card */
+  background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 8px; /* Rounded corners */
+  border-radius: 8px; 
   padding: 24px;
-  width: 250px; /* Gives each box a set width */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  width: 250px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
 }
 
 .skill-category h3 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #007bff; /* A blue to highlight the category title */
+  color: #007bff; 
 }
 
-/* The list of skills */
 .skill-category ul {
-  list-style: none; /* Removes the default bullet points */
+  list-style: none; 
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap; /* Lets the tags wrap to the next line */
-  justify-content: center; /* Centers the tags in the box */
-  gap: 10px; /* Space between each skill tag */
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
 }
 
-/* Each individual skill tag (the "pill") */
 .skill-category li {
-  background-color: #e9ecef; /* Light grey for the tag */
+  background-color: #e9ecef; 
   color: #333;
-  padding: 8px 14px; /* Vertical and horizontal padding */
-  border-radius: 20px; /* This makes it pill-shaped */
+  padding: 8px 14px; 
+  border-radius: 20px; 
   font-size: 0.9rem;
   font-weight: 500;
 }
