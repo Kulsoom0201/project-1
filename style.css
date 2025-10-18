@@ -1,0 +1,257 @@
+.bbd-inf {
+  text-decoration: none;
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+.unity-inf {
+  text-decoration: none;
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+.unity-inf:hover {
+  text-decoration: none;
+}
+.bbd-inf:hover {
+  text-decoration: none;
+}
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  align-self: center;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.project-card {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card .tech-used {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.project-card a {
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.bbdu-img {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 25%;
+  object-fit: cover;
+  border: 3px solid #c7ecec;
+}
+
+.unity-img {
+  width: 50%;
+  border-radius: 25%;
+  object-fit: cover;
+  border: 3px solid #c7ecec;
+  float: right;
+  margin-left: 30px;
+}
+
+.kulsoom-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#skills {
+  padding: 40px 20px; /* Adds space around the whole section */
+  background-color: #f9f9f9; /* A very light grey background */
+  text-align: center;
+}
+
+#skills h2 {
+  margin-bottom: 40px; /* Space below the main "Skills" heading */
+  font-size: 2rem;
+}
+
+/* This is the container for all your skill boxes */
+.skills-container {
+  display: flex; /* Puts the categories side-by-side */
+  flex-wrap: wrap; /* Lets them stack vertically on small screens */
+  justify-content: center; /* Centers the boxes */
+  gap: 20px; /* Space between each box */
+}
+
+/* This is each individual category box (e.g., "Programming") */
+.skill-category {
+  background-color: #ffffff; /* White background for the card */
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Rounded corners */
+  padding: 24px;
+  width: 250px; /* Gives each box a set width */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.skill-category h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #007bff; /* A blue to highlight the category title */
+}
+
+/* The list of skills */
+.skill-category ul {
+  list-style: none; /* Removes the default bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; /* Lets the tags wrap to the next line */
+  justify-content: center; /* Centers the tags in the box */
+  gap: 10px; /* Space between each skill tag */
+}
+
+/* Each individual skill tag (the "pill") */
+.skill-category li {
+  background-color: #e9ecef; /* Light grey for the tag */
+  color: #333;
+  padding: 8px 14px; /* Vertical and horizontal padding */
+  border-radius: 20px; /* This makes it pill-shaped */
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
